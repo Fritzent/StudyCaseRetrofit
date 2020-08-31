@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvId"
+        android:text="Id"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvFirstName"
+        android:text="FIRST NAME"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvLastName"
+        android:text="LAST NAME"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvCreatedAt"
+        android:text="CREATE_AT"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvUpdateAt"
+        android:text="UPDATED_AT"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tvDeleteAt"
+        android:text="DELETED_AT"
+        android:textSize="21sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:src="@drawable/ic_baseline_delete"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+</LinearLayout>
